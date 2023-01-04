@@ -1,0 +1,433 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Margatina</title>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+</head>
+
+<body>
+    <!--Logo-->
+    <div class="logo-image m-auto">
+        <a href="/"><img src="/assets/images/logo.png" alt="Logo"></a>
+    </div>
+
+    <!--Navbar-->
+
+    <nav class="navbar navbar-expand-lg bg-dark navbar-dark d-flex">
+        <div class="container">
+            <button class="navbar-toggler m-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navmenu">
+                <ul class="navbar-nav ms-auto m-auto">
+                    <li class="nav-item active">
+                        <a href="/" class="nav-link">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Gallery</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Activities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#" class="nav-link">Contacts</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Carousel-->
+    <section class="carousel">
+        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="true">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="background-image: url('/assets/images/IMG_1889.jpg');">
+                    <!-- <img src="/assets/images/IMG_1889.jpg" class="d-block w-100" alt="..."> -->
+                </div>
+                <div class="carousel-item" style="background-image: url('/assets/images/IMG_3784.jpg');">
+                    <!-- <img src="/assets/images/IMG_3784.jpg" class="d-block w-100" alt="..."> -->
+                </div>
+                <div class="carousel-item" style="background-image: url('/assets/images/IMG_3783.jpg');">
+                    <!-- <img src="/assets/images/IMG_3783.jpg" class="d-block w-100" alt="..."> -->
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </section>
+    <!--Info-->
+    <section class="info my-4">
+        <div id="info-title">
+            <h3>Informantion</h3>
+            <p>Discover the region,the surroundings,the lociton of the villa and how to reach it.</p>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="info-box m-auto">
+                        <div class="info-box-teaser">
+                            <img src="/assets/images/tourism.jpg" alt="Surroundings">
+                        </div>
+                        <div class="info-box-body">
+                            <h4>Surroundings</h4>
+                            <p class="info-box-info">Sinse Margatina is located near Troyan there are lots of places you
+                                can visit. In the area there are museums ,eco trails, spa complexes with hot spring
+                                water and many other ...</p>
+                            <p><a href="#" class="btn">Read More</a></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="info-box m-auto">
+                        <div class="info-box-teaser">
+                            <img src="/assets/images/location.png" alt="Surroundings">
+                        </div>
+                        <div class="info-box-body">
+                            <h4>Location</h4>
+                            <p class="info-box-info">The villa is an area called Margatina that is located in the small
+                                village Belish which is near Troyan .It is about 15 km away from the town center. You
+                                can go there by a car...</p>
+                            <p><a href="#" class="btn">Check Map</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!--Map-->
+    <section class="surroundings">
+        <h1 class="my-3">Surroundings</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 my-3">
+                    <div class="surrounding-image">
+                        <img src="/assets/images/monastery.jpg" alt="monastery">
+                    </div>
+                </div>
+                <div class="col-lg-6 my-3">
+                    <div class="surrounding-text">
+                        <h4>Troyan Monastery</h4>
+                        <p>The Monastery of the Dormition of the Most Holy Mother of God (Bulgarian: Троянски манастир
+                            „Успение Богородично“) or, as it is more commonly called, the Troyan Monastery is the third
+                            largest monastery in Bulgaria. It is located in the northern part of the country in the
+                            Balkan
+                            mountains and was founded no later than the end of the 16th century.
+
+                            The monastery is situated on the banks of the Cherni Osam near Oreshak, a village 10 km from
+                            Troyan in Lovech Province, and is a popular tourist destination.</p>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div class="row">
+                <div class="col-lg-6 my-3">
+                    <div class="surrounding-image">
+                        <img src="/assets/images/museum.jpg" alt="museum">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="surrounding-text">
+                        <h4>Troyan Museum</h4>
+                        <p>The Museum of Traditional Crafts and Applied Arts in Troyan is unique for the country and is
+                            the only one in whose expositions are displayed in details the craft products as well as the
+                            tools, the different shapes and the functional purpose of the products and the various
+                            decoration techniques.
+
+                            In ten halls are presented exhibits of the most specific Troyan crafts - pottery, forest
+                            craft, making of wine vessels, wood-carving, blacksmithing, coppersmithing, weaving, etc.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+            <hr />
+            <div class="row">
+                <div class="col-lg-6 my-3">
+                    <div class="surrounding-image">
+                        <img src="/assets/images/spa.jpg" alt="spa">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="surrounding-text">
+                        <h4>Chiflik and Shipkovo</h4>
+                        <p>The small village of Chiflik, located 14 km south-west of Troyan, at the source of Beli Osam
+                            river, quickly gets popularity as a balneological complex of national importance. Besides
+                            the opportunity for complete recreation amidst incredible nature and fresh air, Chiflik
+                            offers its visitors a chance to take the advantage of the healing power of several hot
+                            mineral springs, coming out from more than 1000 m depth, with temperatures reaching 55 ° C.
+                        </p>
+                        <p> The use of mineral water and spa in Spa resort "Shipkovski Mineral Baths" has a history of
+                            more than a hundred years and is closely related to the development of the village of
+                            Shipkovo. The resort is situated about 2 km of the same named village and about 18 km. west
+                            of Troyan.</p>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div class="row">
+                <div class="col-lg-6 my-3">
+                    <div class="surrounding-image">
+                        <img src="/assets/images/ski.jpg" alt="Ski Resort">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="surrounding-text">
+                        <h4>Ski Resort "Beklemeto"</h4>
+                        <p>Ski Resort "Beklemeto" is located 1320 meters above sea level, about 20 km away from the town
+                            of Troyan. It is part of the Central Balkan National Park. Snow days are about 170 a year.
+
+                            Here are the best Bulgarian biathlon and cross-country ski runs of 2 km, 3, 5 km, 7 km and
+                            10 km, approved by the international biathlon and FIBA and FIS ski organizations. The
+                            Beklemeto also has three alpine ski lifts. The resort has a "Mountain Center" where you can
+                            rent skis, shoes, sledges, as well as other winter sports facilities.</p>
+                    </div>
+                </div>
+            </div>
+            <hr />
+            <div class="row">
+                <div class="col-lg-6 my-3">
+                    <div class="surrounding-image">
+                        <img src="/assets/images/hija.jpg" alt="hut">
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="surrounding-text">
+                        <h4>Central Balkan Huts</h4>
+                        <p>Troyan is located near Central Balkan where the nature is amazing.There are 3 national parks
+                            in the area. It is the perfect location
+                            for hikes in the mountain. There are lots of eco trails and huts where you can rest and
+                            enjoy the beautiful views that those places have to offer. One of the most famous huts are
+                            Hut "Rai" , Hut "Mazalat", Hut "Ambaritsa", Hut "Pleven",Hut "Eho", Hut "Dermenka", Hut
+                            "Dobrila", Hut
+                            "Koze Stena" and many others. Each of them takes different time to be reached. </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Location-->
+
+    <section class="location">
+        <h1 class="m-auto" style="text-align: center;">Location</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 my-5">
+                    <div class="location-map">
+                        <div class="mapouter">
+                            <div class="gmap_canvas"><iframe width="500" height="500" id="gmap_canvas"
+                                    src="https://maps.google.com/maps?q=margatina&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                                    frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a
+                                    href="https://2piratebay.org"></a><br>
+                                <style>
+                                    .mapouter {
+                                        position: relative;
+                                        text-align: right;
+                                        max-height: 500px;
+                                        max-width: 500px;
+                                    }
+                                </style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a>
+                                <style>
+                                    .gmap_canvas {
+                                        overflow: hidden;
+                                        background: none !important;
+                                        max-height: 500px;
+                                        max-width: 500px;
+                                    }
+                                </style>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 my-5">
+                    <div class="location-text">
+                        <h3 class="my-3">Where is it?</h3>
+                        <p>The Villa is located in the Margatina hamlet at the end of the village Belish. This is right
+                            at the foot of the Stara Planina mountain only 13 km from Troyan. The road is in great
+                            condition which allows the transportation throught out the hole year regardless of the
+                            weather conditions. Unfortunately there is no public transport sinse there are very few
+                            residents in the area.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Gallery-->
+    <section class="gallery">
+        <h1>Gallery</h1>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3 col-md-4 col-sm-6 m-auto my-3">
+                    <div class="image-box">
+                        <img src="/assets/images/IMG_1889.jpg" alt="Villa">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 m-auto my-3">
+                    <div class="image-box">
+                        <img src="/assets/images/IMG_1656.jpg" alt="Villa">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 m-auto my-3">
+                    <div class="image-box">
+                        <img src="/assets/images/IMG_3784.jpg" alt="Villa">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 m-auto my-3">
+                    <div class="image-box">
+                        <img src="/assets/images/IMG_3131.jpg" alt="Villa">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 m-auto my-3">
+                    <div class="image-box">
+                        <img src="/assets/images/IMG_1817.JPG" alt="Villa">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 m-auto my-3">
+                    <div class="image-box">
+                        <img src="/assets/images/IMG_1438.jpg" alt="Villa">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 m-auto my-3">
+                    <div class="image-box">
+                        <img src="/assets/images/IMG_1890.jpg" alt="Villa">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 m-auto my-3">
+                    <div class="image-box">
+                        <img src="/assets/images/IMG_6299.jpg" alt="Villa">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 m-auto my-3">
+                    <div class="image-box">
+                        <img src="/assets/images/IMG_6709.JPG" alt="Villa">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 m-auto my-3">
+                    <div class="image-box">
+                        <img src="/assets/images/IMG_3783.jpg" alt="Villa">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 m-auto my-3">
+                    <div class="image-box">
+                        <img src="/assets/images/IMG_3467.jpg" alt="Villa">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 m-auto my-3">
+                    <div class="image-box">
+                        <img src="/assets/images/IMG_4417.jpg" alt="Villa">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 m-auto my-3">
+                    <div class="image-box">
+                        <img src="/assets/images/IMG_5057.jpg" alt="Villa">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 m-auto my-3">
+                    <div class="image-box">
+                        <img src="/assets/images/IMG_5079.jpg" alt="Villa">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 m-auto my-3">
+                    <div class="image-box">
+                        <img src="/assets/images/IMG_6708.JPG" alt="Villa">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 m-auto my-3">
+                    <div class="image-box">
+                        <img src="/assets/images/IMG_3017.jpg" alt="Villa">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 m-auto my-3">
+                    <div class="image-box">
+                        <img src="/assets/images/villa1.jpg" alt="Villa">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 m-auto my-3">
+                    <div class="image-box">
+                        <img src="/assets/images/IMG_3222.jpg" alt="Villa">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 m-auto my-3">
+                    <div class="image-box">
+                        <img src="/assets/images/IMG_4977.jpg" alt="Villa">
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-4 col-sm-6 m-auto my-3">
+                    <div class="image-box">
+                        <img src="/assets/images/IMG_3379.jpg" alt="Villa">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Activities-->
+    <section class="activities">
+
+    </section>
+
+    <!--Footer-->
+    <div class="footer">
+        <footer class="d-flex flex-wrap py-2 bg-dark  border-top">
+            <div class="col-12 col-md-4 justify-content-center justify-content-lg-center d-flex my-lg-0">
+                <a href="/" class="mb-3 me-2 mb-md-0 text-muted text-decoration-none lh-1">
+                </a>
+                <span class="mb-3 mb-md-0">&copy; Personal Villa Webpage, 2023</span>
+            </div>
+
+            <div class="col-12 col-md-4 justify-content-center justify-content-lg-center d-flex my-lg-0">
+                <div class="logo">
+                    <a href="/">
+                        <img src="assets/images/logo.png" alt="Logo">
+                    </a>
+                </div>
+            </div>
+            <div class="col-12 col-md-4 justify-content-center justify-content-lg-center d-flex my-lg-0">
+                <ul class="nav col-lg-4 col-md-6 col-sm-12 justify-content-end d-flex">
+                    <li>
+                        <a href="https://www.facebook.com/daqn.tsankov" target="_blank"><span
+                                class="fa fa-2x fa-facebook m-2"></span></a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/daqn.tsankov" target="_blank"><span
+                                class="fa fa-2x fa-instagram m-2"></span></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+    </div>
+
+    <!-- <div class="mapouter"><div class="gmap_canvas"><iframe width="600" height="500" id="gmap_canvas" src="https://maps.google.com/maps?q=margatina%20&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe><a href="https://fmovies-online.net">fmovies</a><br><style>.mapouter{position:relative;text-align:right;height:500px;width:600px;}</style><a href="https://www.embedgooglemap.net">embedgooglemap.net</a><style>.gmap_canvas {overflow:hidden;background:none!important;height:500px;width:600px;}</style></div></div> -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
