@@ -176,8 +176,9 @@ nav {
     padding: 20px;
 }
 .image-box{
-    max-width: 350px;
-    max-height: 350px;
+    width: 350px;
+    height: 350px;
+    max-width: 100%;
 }
 .image-box img {
     text-align: center;
