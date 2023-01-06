@@ -230,7 +230,11 @@ nav {
     background-color: white;  
     border-radius: 5px;
 }
-
+.hidden-images img { 
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}
 
 
 
