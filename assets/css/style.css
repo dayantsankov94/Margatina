@@ -180,14 +180,54 @@ nav {
     height: 350px;
     max-width: 100%;
 } */
-.image-box img {
+.gallery .image-box img {
     text-align: center;
     width: 100%;
     height: 280px;
     object-fit: cover;
 }
-
-
+.activities h3 {
+    text-align: center;
+    font-weight: 700;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    color: white;
+    background-color: #212529;
+    max-width: 300px;
+}
+.activities .image-box {
+    max-width: 300px;
+    height: 200px;
+}
+.activities .image-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.activities .text-box {
+    margin-top: 5px;
+    padding: 5px;
+    max-width: 300px;
+    color: white;
+    background-color: #212529;
+}
+.activities .text-box p{
+    text-align: center;
+}
+.activities .text-box button {
+    background-color: #212529;
+    border: 2px solid white;
+    color: white;
+    text-align: center; 
+    border-radius: 5px; 
+}
+.activities .text-box button:hover {
+    color: black;
+    transition: .5s;
+    transform: scale(1.2);
+    border: 2px solid white;
+    background-color: white;  
+    border-radius: 5px;
+}
 
 
 
