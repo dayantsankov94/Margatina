@@ -258,13 +258,22 @@ nav {
     padding: 20px;
     text-align: center;
 }
-.contacts ul {
+/* .contacts ul {
     text-align: center;
 }
 .contacts li {
     list-style: none;
+    text-align: center;
+} */
+.contact-info a{
+    margin: 20px;
+    display:block;
+    text-decoration: none;
 }
-
+.contact-info span{
+    margin: 20px;
+    display:block;
+}
 
 
 .logo {
