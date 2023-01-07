@@ -258,13 +258,6 @@ nav {
     padding: 20px;
     text-align: center;
 }
-/* .contacts ul {
-    text-align: center;
-}
-.contacts li {
-    list-style: none;
-    text-align: center;
-} */
 .contact-info a{
     margin: 20px;
     display:block;
@@ -273,6 +266,11 @@ nav {
 .contact-info span{
     margin: 20px;
     display:block;
+}
+.about img {
+    height: 400px;
+    width: 100%;
+    
 }
 
 
